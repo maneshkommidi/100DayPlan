@@ -14,3 +14,17 @@ def calcultor(nums, operator)
   end
   result
 end
+
+loop do
+  print "Enter the first number:"
+  num1 = gets.chomp.to_f
+  print "Enter the second number:"
+  num2 = gets.chomp.to_f
+  print "Enter the opertor (+, -, *, % or /)"
+  operator = gets.chomp.to_f
+  result = calcultor([num1, num2], operator)
+  print "result is #{result}"
+  print "Enter Y or y to continue"
+  continue = gets.chomp.downcase
+  break unless continue == 'y'
+end
