@@ -1,3 +1,4 @@
+#Maximum Product Subarray (LeetCode #152)
 def max_product(nums)
   return 0 if nums.empty?
   max_so_far = min_so_far = result = nums[0]

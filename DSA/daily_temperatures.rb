@@ -1,3 +1,4 @@
+#Daily Temperatures (#739)
 def daily_temperatures(temperatures)
   result = Array.new(temperatures.length, 0)
   stack = []

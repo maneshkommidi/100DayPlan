@@ -1,3 +1,4 @@
+#Valid Palindrome (LeetCode #125)
 def is_palindrome(s)
   reverse_arr = []
   arr = s.downcase.gsub(/[^a-z0-9]/, "").chars

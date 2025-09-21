@@ -1,3 +1,4 @@
+#Binary Search (LeetCode #704)
 def search(nums, target)
   nums = nums.sort
   left = 0

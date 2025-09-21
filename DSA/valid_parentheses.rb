@@ -1,3 +1,4 @@
+#Valid Parentheses (#20)
 def is_valid(s)
   stack = []
   mapping = { '}' => '{' , ']' => '[', ')' => '('}

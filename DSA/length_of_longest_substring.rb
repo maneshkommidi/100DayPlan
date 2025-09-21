@@ -1,3 +1,4 @@
+#Longest Substring Without Repeating Characters (LeetCode #3)
 def length_of_longest_substring(s)
   char_index_map = {}
   longest = 0

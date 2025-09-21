@@ -1,3 +1,4 @@
+#Intersection of Two Arrays II (LeetCode #350)
 def intersect(nums1, nums2)
   result = []
   counts = Hash.new(0)

@@ -1,3 +1,4 @@
+#Combination Sum (#39)
 def combination_sum(candidates, target)
   result = []
   rec_helper(candidates, target, [], result, 0)

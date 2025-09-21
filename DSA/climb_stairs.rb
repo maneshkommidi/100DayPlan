@@ -1,3 +1,4 @@
+#Climbing Stairs (LeetCode #70)
 def climb_stairs(n)
   return 1 if n <= 1
   first = 1

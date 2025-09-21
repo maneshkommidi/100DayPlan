@@ -1,3 +1,4 @@
+#Maximum Depth of Binary Tree (#104)
 def max_depth(root)
   return 0 if root.nil?
   result = []

@@ -1,3 +1,4 @@
+#Valid Anagram (LeetCode #242)
 def is_anagram(s, t)
   return false if s.size != t.size
   for i in 'a'..'z'

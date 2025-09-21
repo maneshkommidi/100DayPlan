@@ -1,3 +1,4 @@
+#Find First and Last Position in Sorted Array (#34)
 def search_range(nums, target)
   return [-1, -1] unless nums.include?(target)
   result = []
